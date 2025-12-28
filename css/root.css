@@ -1,0 +1,30 @@
+:root {
+  /* sub-heading at the top of the app UI */
+  --text-Purple-300: hsl(276, 100%, 81%);
+  /* chat on the left */
+  --text-Purple-600: hsl(276, 55%, 52%);
+  /* chat on the right, paragraph */
+  --text-Gray-500: hsl(270, 7%, 64%);
+  /* placeholder text */
+  --text-Gray-300: hsl(206, 6%, 79%);
+  /* main heading */
+  --text-Purple-950: hsl(271, 36%, 24%);
+
+  --gradient-Pink-500: hsl(293, 100%, 63%);
+  --gradient-Purple-500: hsl(264, 100%, 61%);
+  --gradient: linear-gradient(
+    to bottom left,
+    var(--gradient-Pink-500),
+    var(--gradient-Purple-500)
+  );
+
+  --color-White: hsl(0, 100%, 100%);
+  /* app background */
+  --color-Gray-100: hsl(270, 20%, 96%);
+  /* submit button background */
+  --color-Purple-950: hsl(271, 36%, 24%);
+  /* radio button outline */
+  --color-Pink-400: hsl(289, 100%, 72%);
+
+  font-size: 16px;
+}

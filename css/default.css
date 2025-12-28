@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: var(--color-Gray-100);
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+}
+body::before {
+  content: "";
+  background-color: black;
+  width: 28rem;
+  position: absolute;
+  height: 33rem;
+  border-radius: 0 0 50% 50%;
+  left: -10%;
+  background-image: var(--gradient);
+  z-index: -2;
+}
+::selection {
+  color: var(--color-Purple-950);
+  background-color: var(--color-Pink-400);
+}
